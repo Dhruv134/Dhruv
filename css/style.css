@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header-area {
+  position: fixed;
+  background: url("../images/Rectangle_2.png") no-repeat center center;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 120px;
+  background: none;
+  font-family: "Poppins", sans-serif;
+}
+
+img.logo {
+  width: 218px;
+  height: 80px;
+  left: 119px;
+  top: 36px;
+}
+.user-link {
+  width: 10%;
+}
+.user-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-links li {
+  list-style: none;
+}
+
+.user-links a {
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sign-up a {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.slider-area {
+  position: absolute;
+  width: 100%;
+
+  padding-top: 120px;
+}
+.slier-content {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  width: 100%;
+}
+.heading h1 {
+  width: 100%;
+  font-size: 128px;
+  line-height: 140px;
+}
+.heading h4 {
+  width: 100%;
+  font-size: 28px;
+  line-height: 55px;
+}
+.slider-button-area {
+}
+.slider-button {
+}
